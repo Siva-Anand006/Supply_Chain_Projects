@@ -43,11 +43,4 @@ Procurement_Analytics_App/
 └── README.md
 ```
 
-## 4) Resume bullets (copy/paste)
-
-- Built an interactive Streamlit procurement intelligence app (KPI scorecards, spend analytics, cost-savings tracking) using Pandas + Plotly.
-- Engineered procurement features (lead time, defect rate, compliance rate, savings variance) and trained a Random Forest classifier to flag at-risk orders/suppliers.
-- Implemented category price forecasting with Prophet (fallback baseline) and delivered automated plain-English insights for procurement stakeholders.
-- Added what-if simulations to quantify the impact of stricter OTD targets on supplier portfolio and potential savings.
-
 
