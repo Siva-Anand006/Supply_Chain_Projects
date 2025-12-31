@@ -1,0 +1,13 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Data (optional)
+*.csv
