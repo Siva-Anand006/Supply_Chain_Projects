@@ -53,7 +53,7 @@ def savings_opportunities_table(df: pd.DataFrame, top_n: int = 20) -> pd.DataFra
 
     cols = ["PO_ID","Supplier","Item_Category","Order_Date","Quantity","Unit_Price","Negotiated_Price","Savings_Total","Savings_Pct","Compliance","Order_Status"]
     out = df[cols].copy()
-    out["Order_Date"] = out["Order_Date"].dt.date
+    out["Order_Date"] = out["Order_Date"].dt.strftime("%Y-%m-%d")
     return out.sort_values("Savings_Total", ascending=False).head(top_n)
 
 def generate_insights(df: pd.DataFrame) -> list[str]:

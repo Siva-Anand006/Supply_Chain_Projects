@@ -36,7 +36,7 @@ def aggrid(df: pd.DataFrame, height: int = 360):
     gridOptions = gb.build()
     AgGrid(df, gridOptions=gridOptions, height=height, fit_columns_on_grid_load=True)
 
-st.title("📦 Procurement Intelligence & KPI Dashboard")
+st.title("Procurement Intelligence & KPI Dashboard")
 st.caption("Interactive procurement KPIs + predictive analytics on a Kaggle-style procurement dataset.")
 
 with st.sidebar:
