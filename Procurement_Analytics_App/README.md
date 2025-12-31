@@ -9,7 +9,7 @@ A Streamlit web app that turns a procurement CSV into:
 
 > Note: The provided dataset does not include promised delivery dates or payment terms.
 > This app uses **proxy logic** (lead time SLA quantiles, defects, compliance) to demonstrate the idea.
-> If you later get a richer dataset, you can swap in true OTD and payment delay features easily.
+
 
 ## 1) Setup
 
