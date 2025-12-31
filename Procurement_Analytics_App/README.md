@@ -10,6 +10,7 @@ A Streamlit web app that turns a procurement CSV into:
 > Note: The provided dataset does not include promised delivery dates or payment terms.
 > This app uses **proxy logic** (lead time SLA quantiles, defects, compliance) to demonstrate the idea.
 
+Kaggle Dataset link: https://www.kaggle.com/datasets/shahriarkabir/procurement-kpi-analysis-dataset 
 
 ## 1) Setup
 
